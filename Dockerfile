@@ -28,8 +28,4 @@ RUN apt-get -yq autoremove --purge && \
 	apt-get clean && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD ./files /work/tg
-RUN touch /work/tg/tg.log
-RUN chmod +x /work/tg/tg.sh
-
 CMD ["bash"]
