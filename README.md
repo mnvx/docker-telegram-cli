@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-git pull git@github.com:mnvx/docker-telegram-cli.git
+git clone git@github.com:mnvx/docker-telegram-cli.git
 cd docker-telegram-cli
 
 # Kill old containers
